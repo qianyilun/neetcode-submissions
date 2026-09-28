@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-09-28",
+  "policy": {
+    "sourceOfTruthForSolvedProblems": "Data Structures & Algorithms/",
+    "bulkSyncCommitDatesAreSolveDates": false,
+    "resultScale": [
+      "clean",
+      "shaky",
+      "needed-hints"
+    ],
+    "spacingGuidelineDays": {
+      "clean": "7-14, then 21-45 after repeated success",
+      "shaky": "3-7",
+      "needed-hints": "1-3"
+    }
+  },
+  "problems": {
+    "maximum-product-subarray": {
+      "leetcodeNumber": 152,
+      "lastReview": "2026-09-26",
+      "result": "shaky",
+      "nextReview": "2026-09-28",
+      "reviewCount": 1,
+      "source": "recent-chat",
+      "notes": "Recent review focused on DP base cases and why both max/min states must compare against nums[i]. Scheduled for cold solve on 2026-09-28; do not mark today complete until feedback is received."
+    },
+    "foreign-dictionary": {
+      "leetcodeNumber": 269,
+      "lastReview": "2026-09-25",
+      "result": "shaky",
+      "nextReview": "2026-09-28",
+      "reviewCount": 1,
+      "source": "recent-chat",
+      "notes": "Recent review involved debugging indegree construction/topological ordering. Scheduled for cold solve on 2026-09-28; do not mark today complete until feedback is received."
+    }
+  }
+}
